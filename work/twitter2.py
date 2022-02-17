@@ -20,7 +20,7 @@ def main(argm):
         acct = argm
         if (len(acct) < 1): break
         url = twurl.augment(TWITTER_URL,
-                            {'screen_name': acct})
+                            {'screen_name': acct, 'count': 20})
         print('Retrieving', url)
         connection = urllib.request.urlopen(url, context=ctx)
         data = connection.read().decode()
