@@ -1,3 +1,7 @@
+'''
+This module is created for parsing json file.
+User can get data, when he choose a key-word.
+'''
 from hmac import digest
 import json
 
@@ -21,6 +25,10 @@ def key_search(data):
     return choice
 
 def dig_into(section, choice_dict, elem):
+    '''
+    Recursion function, which help take values from keys and\
+        create dictionary
+    '''
     if type(section) == list:
         section= section[0]
     content = section.get(elem)
@@ -45,6 +53,9 @@ def dig_into(section, choice_dict, elem):
         return choice_dict
 
 def find_key(data, request):
+    '''
+    Function which help find right value
+    '''
     for key_elem in data:
         if key_elem == request:
             answer = data[key_elem]
