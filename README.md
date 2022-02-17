@@ -1,7 +1,7 @@
-Hello it's my lab work 2.
+##Hello it's my lab work 2.
 In dir 'work' you can find files, related to 2 and 3 task.
 
-1) Files: 'hidden.py', 'twitter1.py', 'twurl.py', 'oauth.py', 'twitter1.json' are used for 2 task. They are auxiliary for the main file 'parse_file.py'.
+#1) Files: 'hidden.py', 'twitter1.py', 'twurl.py', 'oauth.py', 'twitter1.json' are used for 2 task. They are auxiliary for the main file 'parse_file.py'.
 This module is created for parsing a json file.
 
 Firstly you should run a module like this:
@@ -21,7 +21,7 @@ And you can decide y(yes) or n(no)
 ![start4](https://user-images.githubusercontent.com/91615532/154506524-1f68c09a-80a5-42c4-97e2-da88695a6bf3.png)
 
 
-2) Files: 'hidden.py', 'twitter2.py', 'twurl.py', 'oauth.py', 'twitter2.json', 'friend_on_map' are used for 3 task. They are auxiliary for the main file 'app.py'.
+#2) Files: 'hidden.py', 'twitter2.py', 'twurl.py', 'oauth.py', 'twitter2.json', 'friend_on_map' are used for 3 task. They are auxiliary for the main file 'app.py'.
 This module is created for make a web-app, where you can input a username and get a Twitter friends' location on a map.
 
 1. Run a program like this
@@ -32,7 +32,7 @@ This module is created for make a web-app, where you can input a username and ge
 
 ![flask2](https://user-images.githubusercontent.com/91615532/154508783-64b33c48-811e-4284-b03e-470fa2d527fe.png)
 
-3. Now you are on a web site, please enter a username DON'T FORGET TO PRESS ENTER a nd then click on button
+3. Now you are on a web site, please enter a username **DON'T FORGET TO PRESS ENTER before** and only then click on button
 
 ![flask3](https://user-images.githubusercontent.com/91615532/154508998-e2aeed27-e058-47c8-8cec-1bc035e661b0.png)
 
