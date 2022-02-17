@@ -1,3 +1,6 @@
+'''
+This module analyze json file, take Twitter friends' loctaion and create map.
+'''
 import json
 import folium
 from ast import arg
@@ -6,7 +9,9 @@ from functools import lru_cache
 from geopy import distance
 
 def main():
-
+    '''
+    The main function, which contain auxiliary functions
+    '''
     arcgis = ArcGIS(timeout=10)
     nominatim = Nominatim(timeout=10, user_agent="justme")
 
